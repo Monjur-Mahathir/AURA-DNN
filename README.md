@@ -16,3 +16,10 @@ We also provide 3 files that contain relevant activity labels, timestamp of each
    For example, this row- "1 3092 19:02:17 3104 19:02:20 10 6945 10 7600 walking" maps to the following statement: From "Camera/1/3092.png" to "Camera/1/3104.png"- these 12 image frames, and from the 6945-th packet in "Wifi/10.pcap" to 7600-th packet in "Wifi/10.pcap"- these 655 WiFi packets correspond to the "walking" activity by the participant.
 
 # How to process CSI data
+From the provided Camera- Wifi dataset and corresponding label, data that maps to specific activity can be extracted by using the "Dataset-Processing/segmentation.py" file and providing the recording session. An example of activity class "squat" can be found in "Dataset/2_2/1/", from 1640 to 1670 image frames. The corresponding activity will be extracted:
+
+https://github.com/Monjur-Mahathir/AURA-DNN/assets/80934192/6b018f56-3aee-4b3b-8e25-91dbb9dc651d
+
+as well as the corresponding WiFi CSI (after processing):
+
+![csi](https://github.com/Monjur-Mahathir/AURA-DNN/assets/80934192/ff98d1cf-235c-44cd-b52d-338a23326564)
