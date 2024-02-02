@@ -3,6 +3,8 @@ This is the repository for the WiFi CSI dataset, processing and patient activity
 
 A shortened version of our dataset can be found here: https://drive.google.com/drive/folders/1Figo2jOCYac7mg7z2waPvwi89Aam2nDu?usp=sharing. The full version will be updated soon.
 
+Detailed system setup, configuration and other information for this project can be found in this repository: https://github.com/Monjur-Mahathir/AURA.git
+
 # Dataset Structure
 Data from each unique recording sessions of our study are provided in separate folder. The folders are named by the following convention: <ENV_ID>_<PARTICIPANT_ID>, where ENV_ID represent a unique identifier for each unique environment, followed by a unique identifier for each person.
 
